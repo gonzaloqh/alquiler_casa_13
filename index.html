@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alquiler de Casa</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>🏡 Casa en Alquiler</h1>
+        <p>Consulta toda la información sobre la propiedad disponible</p>
+    </header>
+
+    <main>
+        <section id="resumen">
+            <h2>1. Resumen General</h2>
+            <p>Casa con 4 ambientes, 1 baño, y 2 patios (uno grande, uno pequeño). Está ubicada en esquina, frente a un
+                parque y a una cuadra del paradero de combis de la línea 13. A espaldas del Cementerio de Hunter. No
+                cuenta con cochera, pero hay espacio para estacionar afuera. Se admiten mascotas. Precio: S/. 700. Se
+                solicita 1 mes de adelanto + 1 mes de garantía.</p>
+        </section>
+
+        <section id="ubicacion">
+            <h2>2. Ubicación</h2>
+            <p>📍 Calle Francisco Bolognesi, frente a un parque, a una cuadra del paradero de la línea 13 y a espaldas
+                del Cementerio San Hilarión.</p>
+            <a href="https://www.google.com/maps/place/16%C2%B027'14.2%22S+71%C2%B033'32.1%22W/@-16.4538208,-71.5591028,18.75z/data=!4m4!3m3!8m2!3d-16.4539372!4d-71.5589267?hl=en&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank">📌 Ver ubicación en Google Maps</a>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1561.5075872586802!2d-71.5589267!3d-16.4539372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDI3JzE0LjIiUyA3McKwMzMnMzIuMSJX!5e0!3m2!1sen!2spe!4v1720020000000!5m2!1sen!2spe"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="ambientes">
+            <h2>3. Ambientes</h2>
+            <p>Consta de 4 ambientes con medidas:</p>
+            <ul>
+                <li>4.5 x 4 m</li>
+                <div class="galeria">
+                    <img src="images/amb_1/amb_1_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                    <img src="images/amb_1/amb_1_4.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                    <img src="images/amb_1/amb_1_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                    <img src="images/amb_1/amb_1_3.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                </div>
+
+
+                <li>4.9 x 3 m</li>
+                <div class="galeria">
+                    <img src="images/amb_3/amb_3_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                    <img src="images/amb_3/amb_3_3.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                    <img src="images/amb_3/amb_3_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                    <img src="images/amb_3/amb_3_4.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                </div>
+
+
+                <li>2.8 x 3.5 m</li>
+
+                <div class="galeria">
+                    <img src="images/amb_2/amb_2_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/amb_2/amb_2_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+
+                </div>
+
+                <li>3.3 x 3.6 m</li>
+                <div class="galeria">
+                    <img src="images/amb_4/amb_4_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/amb_4/amb_4_3.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/amb_4/amb_4_4.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/amb_4/amb_4_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+
+                </div>
+            </ul>
+            <p>Cada par de ambientes tiene salidas independientes a la calle y también acceso a los patios y al baño
+                (1.5 x 2.2 m). Patio pequeño: 6.7 x 2.3 m. Patio grande: 7.6 x 5.8 m.</p>
+
+            <ul>
+                <li>Baño</li>
+                <div class="galeria">
+                    <img src="images/banio/bano_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/banio/bano_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                </div>
+                <li>Patio Pequeño</li>
+                <div class="galeria">
+                    <img src="images/patio_s/patio_s_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/patio_s/patio_s_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                </div>
+                <li>Patio Grande</li>
+                <div class="galeria">
+                    <img src="images/patio_m/patio_m_2.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/patio_m/patio_m_3.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                    <img src="images/patio_m/patio_m_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)" />
+                </div>
+            </ul>
+        </section>
+
+        <div id="lightbox" class="lightbox" onclick="cerrarLightbox()">
+            <img id="lightbox-img" src="" alt="Imagen ampliada" />
+        </div>
+
+        <section id="precio">
+            <h2>4. Precio y condiciones</h2>
+            <p>
+                💰 Alquiler mensual: <strong>S/. 700</strong> (ligeramente conversable)<br>
+                📝 Contrato mínimo: 6 meses<br>
+                📦 Se solicita 1 mes de adelanto + 1 mes de garantía<br>
+                💡 Servicios (agua y luz) no incluidos<br>
+                ❌ No se aceptan pagos parciales<br>
+                🕒 Puedes separar la propiedad por días a <strong>S/. 23.30 diarios</strong> (no reembolsable)<br>
+                💼 La garantía se devuelve al finalizar si no hay daños.
+            </p>
+        </section>
+
+        <section id="cochera">
+            <h2>5. Cochera</h2>
+            <p>No cuenta con cochera interna, pero sí con espacio en la salida donde se puede estacionar un auto. El
+                inquilino decide si lo deja afuera toda la noche o si implementa seguridad adicional.</p>
+            <div class="galeria">
+                <img src="images/cochera_1.jpg" alt="Vista del frente" onclick="abrirLightbox(this)"/>
+                <img src="images/cochera_2.jpg" alt="Patio amplio" onclick="abrirLightbox(this)"/>
+            </div>
+        </section>
+
+        <section id="mascotas">
+            <h2>6. Política de mascotas</h2>
+            <p>Se permiten mascotas sin restricciones. La casa tiene patios amplios donde pueden estar sin problema. Al
+                finalizar el contrato, el inquilino debe retirarlas.</p>
+        </section>
+
+<section id="fotos">
+  <h2>7. Recorrido virtual</h2>
+  <p>Puedes ver videos del recorrido de la propiedad en los siguientes enlaces de Google Drive:</p>
+
+  <ul class="video-links">
+    <li>
+      📹 <a href="https://drive.google.com/file/d/1KgPy11HBo1as46mjA2YDUQGkl83JdGck/view?usp=sharing" target="_blank">
+        Ver video 1: Recorrido general
+      </a>
+    </li>
+    <li>
+      📹 <a href="https://drive.google.com/file/d/1KeRgU3nUPWxm68gLZkzg8WWBgrSCrpLd/view?usp=sharing" target="_blank">
+        Ver video 2: Detalles de los ambientes
+      </a>
+    </li>
+  </ul>
+</section>
+
+
+        <section id="visita">
+            <h2>8. Agendar Visita</h2>
+            <p>📅 Se programa 1 fecha por semana para visitas.<br>
+                🗓️ Próxima visita: <strong>Domingo 06/07/2025</strong><br>
+                🕗 Horario: 8:30 a.m. a 11:00 a.m.<br>
+                📞 Teléfono para agendar: <a href="tel:959115551">959 115 551</a><br>
+                ⚠️ Es importante haber revisado toda la información antes de llamar. Solo se atenderán llamadas para
+                agendar visitas. Si tienes una consulta adicional no cubierta aquí, puedes comunicarte.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Alquiler de Propiedad. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script>
+  function abrirLightbox(imagen) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    lightboxImg.src = imagen.src;
+    lightbox.style.display = 'flex';
+  }
+
+  function cerrarLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+</script>
+
+</body>
+
+</html>
